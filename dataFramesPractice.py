@@ -1,11 +1,5 @@
 import pandas as pd
 
-#df=pd.DataFrame({'A':[1,2,3], 'B':[4,5,6], 'C':[7,8,9]})
-
-#print(df)
-
-
-
 bNames=["Noah", "Liam", "Jacob", "William", "Mason", "Ethan", "Michael", "Alexander", "James", "Elijah"]
 gNames=["Emma", "Olivia", "Sophia", "Isabella", "Ava", "Mia", "Abigail", "Emily", "Charlotte", "Maddison"]
 bFreq=[183330, 173981, 163266, 159945, 157875, 149082, 145171, 142142, 139652, 137093]
@@ -22,3 +16,5 @@ df=pd.DataFrame(
 )
 
 print(df)
+
+print(round(df.describe()))
